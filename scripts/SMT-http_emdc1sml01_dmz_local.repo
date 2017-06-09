@@ -1,0 +1,13 @@
+[SMT-http_emdc1sml01_dmz_local]
+name=SMT-http_emdc1sml01_dmz_local
+baseurl=http://emdc1sml01.dmz.local/repo/$RCE/RES6/x86_64/
+enabled=1
+gpgcheck=0
+#exclude=libreport-plugin-bugzilla,sles_es-indexhtml
+
+[RHEL6-Base]
+name=RHEL6 Base Repo
+baseurl=http://emdc1sml01.dmz.local/repo/$RCE/RHEL6/
+enabled=1
+gpgcheck=0
+
